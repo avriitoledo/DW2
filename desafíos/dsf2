@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfajores</title>
+</head>
+<body>
+    <script>
+        const precioUnitario = 1200
+        const nombreProducto = "alfajores"
+        let cantidadDeseada = prompt("¿Qué cantidad de " + (nombreProducto) + " por $" + (precioUnitario) + " c/u desea comprar?")
+        let costoTotal = (precioUnitario) * (cantidadDeseada)
+        alert("El costo total de su compra sería de $" + (costoTotal))
+
+    </script>                                        
+</body>
+</html>
+
