@@ -1,6 +1,6 @@
 const baseDeDatos = [
     {
-        categoria: "x",
+        categoria: "tortas",
         productos:[
             {},
             {},
@@ -9,7 +9,7 @@ const baseDeDatos = [
         ]
     },
     {
-        categoria: "y",
+        categoria: "budines",
         productos:[
             {},
             {},

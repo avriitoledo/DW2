@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfajores</title>
+</head>
+<body>
+    <script>
+        
+        let productos = ["guaymayen","jorgito","milka","terrabusi"]
+        
+        console.log("Estos son los alfajores que tenemos en stock: ")
+        for(let i=0; i<productos.length; i++){
+            console.log(productos[i])
+        }
+
+        productos.pop()
+
+        console.log("Estos son los alfajores que tenemos en stock (actualizado): ")
+        for(let i=0; i<productos.length; i++){
+            console.log(productos[i])
+        }
+
+
+    </script>                                        
+</body>
+</html>
