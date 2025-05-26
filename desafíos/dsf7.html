@@ -6,12 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="titulo">Título</h1>
+    <h1 id="nombre">Cheesecake</h1>
+    <p id ="precio">Precio: $12000</p>
 
     <script>
-        //console.log(document.getElementById("titulo"))
-        console.dir(document)
+        let precio = document.getElementById("precio")
+        precio.innerText="Precio: $16000"
 
+        let nombre = document.getElementById("nombre")
+        nombre.classList.add("título")
+
+        nombre.style.color= "blue";
+        
     </script>
 </body>
 </html>
